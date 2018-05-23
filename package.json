@@ -1,0 +1,32 @@
+{
+  "name": "ReActApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-slider": "^10.0.0",
+    "copy-webpack-plugin": "^4.4.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.4",
+    "image-webpack-loader": "^4.1.0",
+    "jquery": "^3.3.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  }
+}

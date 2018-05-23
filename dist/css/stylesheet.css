@@ -1,0 +1,144 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#topheader{
+    background-color:#dedede;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-right: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 30px 10px 10px;
+    background-color:#ededed;
+    border-radius: 0px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    right: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+ 
+    color: #2580db;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.bg-blue{
+    background-color: #004a8f;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff ;
+}
+
+.grayrow{
+    background-color: #d6d6d6;
+    padding-top:10px;
+    padding-bottom: 10px; 
+}
+
+.border-menu{
+    border:#d4d4d4 solid 1px;
+    background-color: #f4f4f4;
+}
+
+.fristRow{
+    background-color: #d6d6d6;
+    padding: 20px 10px;
+    font-size: 20px;
+    
+}
+.pirceli{
+    padding: 20px 10px;
+
+}
+
+.slider.slider-horizontal{
+
+    width: 100%;
+}
+
+.boxrept{
+    margin-top: 10px;
+    padding-top: 40px;
+}
